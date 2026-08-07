@@ -1,7 +1,36 @@
+import { Divider } from "@/components/ui/divider";
+
+import {
+  MockupCard,
+  MockupDevice,
+  MockupEstimate,
+  MockupHeader,
+  MockupStepper,
+  MockupTechnician,
+} from "./mockup";
+
 export function HeroMockup() {
   return (
-    <div className="flex justify-center lg:justify-end">
-      <div className="aspect-[9/18] w-full max-w-sm rounded-[32px] border border-white/10 bg-white/5 backdrop-blur-xl" />
-    </div>
+    <MockupCard>
+      <div className="space-y-8">
+        <MockupHeader />
+
+        <Divider />
+
+        <MockupDevice />
+
+        <Divider />
+
+        <MockupStepper />
+
+        <Divider />
+
+        <MockupEstimate />
+
+        <Divider />
+
+        <MockupTechnician />
+      </div>
+    </MockupCard>
   );
 }

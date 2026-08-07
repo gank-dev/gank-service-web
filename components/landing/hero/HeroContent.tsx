@@ -7,18 +7,20 @@ export function HeroContent() {
     <div className="max-w-2xl">
       <HeroBadge />
 
-      <h1 className="mt-8 text-5xl font-bold leading-tight text-white lg:text-7xl">
+      <h1 className="mt-8 text-6xl font-extrabold leading-none tracking-tight">
+        <>
         Servis HP
         <br />
-        Cepat.
-        <span className="text-brand-accent"> Jujur.</span>
+        dengan Proses
         <br />
-        Transparan.
+        yang Transparan.
+        </>
       </h1>
 
       <p className="mt-8 max-w-xl text-lg leading-8 text-white/70">
-        GANK SERVICE membantu memperbaiki smartphone dengan proses yang jelas,
-        estimasi yang transparan, dan teknisi berpengalaman.
+        Setiap proses perbaikan dilakukan secara transparan,
+        Tidak ada penggantian komponen tanpa persetujuan pemilik HP.
+        Mulai dari diagnosa hingga selesai, anda selalu mengetahui proses servis.
       </p>
 
       <HeroActions />
